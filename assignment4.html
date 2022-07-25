@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            .head_info{
+                text-align: center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            input,select{
+                width: 20%;
+            }
+        </style>
+    </head>
+   
+    <body style="font-family:Verdana, Geneva, Tahoma, sans-serif; background-image: url('https://tse3.mm.bing.net/th?id=OIP.PBe3fg9GrJ9Z4xkSaBuhjgHaEo&pid=Api&P=0');">
+        <h1 class="head_info">TCS EXAM</h1>
+        <form action="/action_page.php">
+            <label for="fullname">Name of Student</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="name of student" style="height: 30px;"><br><br>
+            <label for="rno">Roll No</label><br>
+            <input type="text" id="rno" name="rno" placeholder="Roll.no" style="height: 30px;"><br><br>
+            <label for="deatils">Parent Details</label><br>
+            <textarea id="deatils" name="deatils" placeholder="Parent Details" style="height:100px"></textarea><br><br>
+            <label for="aadhar">Aadhar Number</label><br>
+            <input type="text" id="aadhar" name="aadhar" placeholder="Aadhar Number" style="height: 30px;"><br><br>
+            <label for="add">Address of student</label><br>
+            <textarea id="add" name="add" placeholder="Address" style="height:100px"></textarea><br><br>
+            <label for="qualification">Qualification</label><br>
+            <select id="qualification" name="qualification" >
+                <option value="b.tech">B.Tech</option>
+                <option value="BE">BE</option>
+                <option value="B.com">B.Com</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label for="courses">courses Completed</label><br>
+            <input type="text" id="courses" name="courses" placeholder="courses completed" style="height: 30px;"><br><br>
+            <label for="10thcgpa">10th CGPA</label><br>
+            <input type="text" id="10thcgpa" name="10thcgpa" placeholder="grade" style="height: 30px;"><br><br>
+            <label for="12thcgpa">12th CGPA</label><br>
+            <input type="text" id="12thcgpa" name="12thcgpa" placeholder="grade" style="height: 30px;"><br><br>
+            <label for="img">Upload image</label><br>
+            <input type="file" id="img" name="img" placeholder="photo" accept="image/*" style="height: 30px;"><br><br>
+            <label for="resume">Upload Resume</label><br>
+            <input type="file" id="resume" name="resume" placeholder="resume" accept="image/*" style="height:30px; "><br><br>
+        </form>
+    </body>
+    
+</html>
